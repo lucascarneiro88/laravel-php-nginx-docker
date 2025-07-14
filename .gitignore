@@ -1,0 +1,37 @@
+# Ignore arquivos de ambiente
+.env
+.env.*
+
+# Ignorar pastas de volumes
+volume_data/
+volume_app/
+
+# Laravel
+/vendor/
+/node_modules/
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+
+# Logs
+*.log
+
+# Cache
+*.cache
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs / editores
+.vscode/
+.idea/
+
+# Arquivos do Composer e npm lock (opcional ignorar se não for usar)
+composer.lock
+package-lock.json
