@@ -4,7 +4,7 @@
 
 # Ignorar pastas de volumes
 volume_data/
-volume_app/
+#volume_app/
 
 # Laravel
 /vendor/
